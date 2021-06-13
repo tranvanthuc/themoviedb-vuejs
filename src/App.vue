@@ -1,14 +1,14 @@
 <template>
 <div id="app">
   <!-- Header -->
- <div class="header">
+  <div class="header">
     <div class="header-left">
-   <div class="icon">
+    <div class="icon">
      <img src="./assets/tmdb.svg" alt="tmdb"
       height="20px"
       width="154"
      >
-   </div>
+  </div>
       <div class="dropdow">Movies</div>
       <div class="dropdow">TV Shows</div>
       <div class="dropdow">People</div>
@@ -41,11 +41,32 @@
       cards:[
         {
         title: 'Cruella',
-        src: require('./assets/movie.jpg'),
+        date:'May 26, 2021',
+        src: require('./assets/movie.jpg')
         },
+
         {
-        title: 'Cruella',
-        src: require('./assets/movie1.jpeg'),
+        title: 'Those Who Wish Me Dead',
+        date:'May 05, 2021',
+        src: require('./assets/movie1.jpeg')
+        },
+
+        {
+        title: 'Mortal Kombat',
+        date:'Arp 07, 2021',
+        src: require('./assets/movie2.jpeg')
+        },
+
+        {
+        title: "Tom Clancy's Without Remorse",
+        date:'Arp 29, 2021',
+        src: require('./assets/movie3.jpeg')
+        },
+        
+        {
+        title: 'Godzilla vs Kong',
+        date: 'Mar 24, 2021',
+        src: require('./assets/movie4.jpeg')
         }
       ]
     }
@@ -93,5 +114,4 @@
   cursor: pointer;
 }
 /* List */
-
 </style>
