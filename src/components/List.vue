@@ -4,7 +4,7 @@
             <img :src="card.src" />
             <div class="wrap">
                 <h2 class="text-title">{{ card.title }}</h2>
-                <h2 class="text-date">{{ card.date }}</h2>
+                <p>{{ card.date }}</p>
             </div>
         </div>
 </div>
@@ -23,12 +23,13 @@ export default {
     height: 430px;
     width: 100%;
     padding: 30px;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .list-image{
     display: block;
     margin:  0.5rem;
-    width: 75%;
+    width: 220px;
     box-shadow: 0px 2px 8px #ccc;
     border-radius: 5px;
 }
@@ -37,10 +38,15 @@ export default {
     align-items: center;
     height: 300px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px ;
 }
 .wrap {
     word-wrap: break-word;
     width: 150px;
+    height: 80px;
+}
+.wrap p {
+    margin-top: 5px;
+    color: rgba(0,0,0,0.6);
 }
 </style>

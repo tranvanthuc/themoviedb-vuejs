@@ -30,6 +30,7 @@
   :index="index"
   />
 </div>
+<div class="loadmore">Load More</div>
 </div>
 </template>
  <script>
@@ -84,6 +85,8 @@
   font-size: 15px;
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 .header{
   display: flex;
@@ -112,6 +115,17 @@
 .icon{
   padding: 2rem;
   cursor: pointer;
+}
+.loadmore{
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: #05b3e4;
+  color: white;
+  font-size: 1.5rem;
+  margin: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 5px;
 }
 /* List */
 </style>
