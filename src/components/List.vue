@@ -34,10 +34,6 @@ export default {
     border-radius: 5px;
 }
 .list-image img {
-<<<<<<< HEAD
-=======
-    align-items: center;
->>>>>>> 5758163ac406b69b98f4a336e5a61e075e4d6c87
     height: 300px;
     width: 100%;
     border-radius: 5px 5px 0px 0px ;
