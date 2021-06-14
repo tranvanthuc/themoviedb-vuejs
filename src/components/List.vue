@@ -34,8 +34,6 @@ export default {
     border-radius: 5px;
 }
 .list-image img {
-    display: flex;
-    align-items: center;
     height: 300px;
     width: 100%;
     border-radius: 5px 5px 0px 0px ;

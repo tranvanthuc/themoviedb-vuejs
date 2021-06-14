@@ -116,6 +116,7 @@
   padding: 2rem;
   cursor: pointer;
 }
+/* load-more */
 .loadmore{
   padding: 15px;
   display: flex;
@@ -127,5 +128,4 @@
   margin-top: 1.5rem;
   border-radius: 5px;
 }
-/* List */
 </style>
